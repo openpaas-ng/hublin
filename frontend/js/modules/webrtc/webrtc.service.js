@@ -45,7 +45,9 @@
       addPeerListener: adapter.addPeerListener,
       removePeerListener: adapter.removePeerListener,
       connection: adapter.connection,
-      getOpenedDataChannels: adapter.getOpenedDataChannels
+      getOpenedDataChannels: adapter.getOpenedDataChannels,
+      getRemoteStream: adapter.getRemoteStream,
+      getRemoteRtcIds: adapter.getRemoteRtcIds
     };
   }
 })(angular);
